@@ -11,7 +11,6 @@ import {
   PhoneIcon,
   EnvelopeIcon,
 } from "@heroicons/react/24/outline";
-import { motion } from "framer-motion";
 
 export default function HomePage() {
   const [offsetY, setOffsetY] = useState(0);
