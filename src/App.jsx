@@ -669,7 +669,7 @@ const CategoryCard = ({ title, description, delay }) => {
           "Cosmelan",
           "Glow Peel",
           "Dermapen 4 for Pigmentation",
-          "Vampire Facial",
+          "PRP Vampire Facial",
           "Hydrafacial Basic",
           "HydraFacial Elite",
           "Skin Boosters",
@@ -1746,7 +1746,7 @@ const TreatmentQuiz = ({ onBookAppointment }) => {
         "Q-Switched Laser",
       ],
       mature: [
-        "Vampire Facial",
+        "PRP Vampire Facial",
         "Laser Toning",
         "PRP Therapy",
         "Stem Cell Treatment",
@@ -1951,7 +1951,7 @@ const TreatmentQuiz = ({ onBookAppointment }) => {
       "Cosmelan": "/service/cosmelan-depigmentation",
       "Glow Peel": "/service/glow-brightening-peel",
       "Dermapen 4 for Pigmentation": "/service/dermapen-for-pigmentation",
-      "Vampire Facial": "/service/prp-vampire-facial",
+      "PRP Vampire Facial": "/service/prp-vampire-facial",
       "Hydrafacial Basic": "/service/hydrafacial-basic",
       "HydraFacial Elite": "/service/hydrafacial-elite",
 
@@ -1964,15 +1964,43 @@ const TreatmentQuiz = ({ onBookAppointment }) => {
       // Hair treatments
       "QR678": "/service/qr678-treatment",
       "Hair Growth Boosters": "/service/hair-growth-boosters",
+      "GFC": "/service/gfc-therapy",
+      "Exames": "/service/specialized-hair-exams",
+
+      // Skin treatments
+      "Xanthelasma": "/service/xanthelasma-removal",
+      "Melasma": "/service/melasma-treatment",
+
+      // Under Eyes treatments
+      "Dark Circles Removal": "/service/dark-circles-removal",
+      "Under Eye Boosters": "/service/under-eye-boosters",
+
+      // Pigmentation treatments
+      "Skin Boosters": "/service/skin-boosters-pigmentation",
+
+      // Medifacial treatments
+      "Diamond Polishing": "/service/diamond-polishing",
+      "OxyFacials": "/service/oxy-facials",
+      "Oxyglow": "/service/oxyglow-treatment",
+      "InstaBright Rejuvenation": "/service/instabright-rejuvenation",
+      "Powerlift Medifacial": "/service/powerlift-medifacial",
+      "IV Infusions for glow": "/service/iv-infusions-glow",
 
       // Laser treatments
       "Laser Hair Removal": "/service/laser-hair-removal",
+      "Laser Hair Reduction for Females": "/service/laser-hair-reduction-females",
+      "Laser Hair Reduction for Males": "/service/laser-hair-reduction-males",
       "Tattoo Removal": "/service/tattoo-removal",
+      "Birthmark removal": "/service/birthmark-removal",
+      "Mole removal": "/service/laser-mole-removal",
+      "Wart Removal": "/service/wart-removal-laser",
 
       // Body contouring
       "Weight Loss Treatments": "/service/weight-loss-treatments",
       "Cellulite Treatment": "/service/cellulite-treatment",
       "Fat Reduction": "/service/fat-reduction-treatment",
+      "Cryolipolysis": "/service/cryolipolysis-treatment",
+      "Body Shaping": "/service/body-shaping-treatment",
     };
 
     return quizToServiceMap[treatmentName] || "/"; // Fallback to home if no mapping found
@@ -2413,7 +2441,7 @@ const BookingModal = ({ isOpen, onClose }) => {
         "Cosmelan",
         "Glow Peel",
         "Dermapen 4 for Pigmentation",
-        "Vampire Facial",
+        "PRP Vampire Facial",
         "Hydrafacial Basic",
         "HydraFacial Elite",
         "Skin Boosters",
