@@ -47,8 +47,10 @@ const SERVICE_DATA = {
     sessions: "6-8 sessions recommended",
     rating: 4.9,
     reviews: 156,
-    purpose: "Designed specifically for individuals experiencing androgenetic alopecia (pattern hair loss), telogen effluvium, or general hair thinning. The treatment works by reactivating dormant hair follicles and strengthening existing hair roots to prevent further loss and promote regrowth.",
-    procedure: "The QR678 treatment involves the application of a specialized peptide solution directly to the scalp using advanced delivery methods. Low-level light therapy is then used to enhance the absorption and effectiveness of the peptides. The treatment is painless and requires no downtime.",
+    purpose:
+      "Designed specifically for individuals experiencing androgenetic alopecia (pattern hair loss), telogen effluvium, or general hair thinning. The treatment works by reactivating dormant hair follicles and strengthening existing hair roots to prevent further loss and promote regrowth.",
+    procedure:
+      "The QR678 treatment involves the application of a specialized peptide solution directly to the scalp using advanced delivery methods. Low-level light therapy is then used to enhance the absorption and effectiveness of the peptides. The treatment is painless and requires no downtime.",
     benefits: [
       "Stimulates dormant hair follicles back to active growth phase",
       "Promotes natural hair growth cycles (anagen phase extension)",
@@ -85,7 +87,8 @@ const SERVICE_DATA = {
       "Most clients notice reduced hair shedding within 4-6 weeks. Visible hair regrowth typically begins at 3-4 months with continued improvement over 6-12 months. Full results are usually achieved after completing the recommended treatment course.",
     maintenance:
       "Maintenance sessions every 4-6 months after initial treatment course. Home care regimen including specialized shampoos, serums, and supplements to maintain results. Regular follow-up consultations to monitor hair health.",
-    whatItDoes: "QR678 works by delivering bio-active peptides directly to the hair follicle cells, stimulating cellular metabolism and protein synthesis. This reactivates the natural growth cycle, increases blood circulation to the scalp, and strengthens the hair shaft from within. Unlike traditional treatments, QR678 addresses the root cause rather than just symptoms.",
+    whatItDoes:
+      "QR678 works by delivering bio-active peptides directly to the hair follicle cells, stimulating cellular metabolism and protein synthesis. This reactivates the natural growth cycle, increases blood circulation to the scalp, and strengthens the hair shaft from within. Unlike traditional treatments, QR678 addresses the root cause rather than just symptoms.",
   },
   "hair-growth-boosters": {
     name: "Hair Growth Boosters",
@@ -97,8 +100,10 @@ const SERVICE_DATA = {
     sessions: "8-12 sessions recommended",
     rating: 4.8,
     reviews: 203,
-    purpose: "Specifically formulated for individuals experiencing slow hair growth, thinning hair, post-pregnancy hair loss, or those seeking to accelerate their natural hair growth cycle. Ideal for both men and women looking to achieve thicker, fuller hair in a shorter timeframe.",
-    procedure: "This treatment involves the application of specialized growth-boosting serums containing peptides, vitamins, minerals, and botanical extracts. Micro-needling creates micro-channels in the scalp to enhance absorption, followed by LED light therapy to stimulate cellular activity. The process is comfortable and requires no downtime.",
+    purpose:
+      "Specifically formulated for individuals experiencing slow hair growth, thinning hair, post-pregnancy hair loss, or those seeking to accelerate their natural hair growth cycle. Ideal for both men and women looking to achieve thicker, fuller hair in a shorter timeframe.",
+    procedure:
+      "This treatment involves the application of specialized growth-boosting serums containing peptides, vitamins, minerals, and botanical extracts. Micro-needling creates micro-channels in the scalp to enhance absorption, followed by LED light therapy to stimulate cellular activity. The process is comfortable and requires no downtime.",
     benefits: [
       "Accelerates natural hair growth by up to 200%",
       "Significantly improves hair density and volume",
@@ -135,7 +140,8 @@ const SERVICE_DATA = {
       "Most clients notice accelerated hair growth within 4-6 weeks. Significant improvement in hair thickness and density is typically visible within 2-3 months, with optimal results achieved after completing the full treatment course of 8-12 sessions.",
     maintenance:
       "Monthly or bi-monthly maintenance treatments after initial course. Daily home care regimen including specialized shampoos, conditioners, and scalp serums. Regular follow-up consultations to monitor progress and adjust treatment plan.",
-    whatItDoes: "Hair Growth Boosters work by delivering a synergistic blend of growth factors, peptides, and nutrients directly to the hair follicle cells. This stimulates the dermal papilla cells, extends the growth phase of hair cycles, and promotes the production of thicker, healthier hair shafts. Unlike traditional minoxidil treatments, this method provides comprehensive scalp nourishment and cellular-level stimulation for superior results.",
+    whatItDoes:
+      "Hair Growth Boosters work by delivering a synergistic blend of growth factors, peptides, and nutrients directly to the hair follicle cells. This stimulates the dermal papilla cells, extends the growth phase of hair cycles, and promotes the production of thicker, healthier hair shafts. Unlike traditional minoxidil treatments, this method provides comprehensive scalp nourishment and cellular-level stimulation for superior results.",
   },
   "gfc-therapy": {
     name: "GFC Therapy",
@@ -147,8 +153,10 @@ const SERVICE_DATA = {
     sessions: "6-10 sessions recommended",
     rating: 4.9,
     reviews: 178,
-    purpose: "Specifically designed for individuals with advanced hair loss, weakened follicles, or those who have not responded well to traditional treatments. Particularly effective for androgenetic alopecia, alopecia areata, and age-related hair thinning. This therapy targets the root cause of hair loss rather than just symptoms.",
-    procedure: "GFC Therapy involves the precise application of concentrated growth factor proteins derived from stem cells. The treatment combines micro-needling for enhanced penetration, specialized delivery systems for optimal absorption, and LED photobiomodulation to maximize cellular response. Each session is customized based on individual scalp condition and hair loss pattern.",
+    purpose:
+      "Specifically designed for individuals with advanced hair loss, weakened follicles, or those who have not responded well to traditional treatments. Particularly effective for androgenetic alopecia, alopecia areata, and age-related hair thinning. This therapy targets the root cause of hair loss rather than just symptoms.",
+    procedure:
+      "GFC Therapy involves the precise application of concentrated growth factor proteins derived from stem cells. The treatment combines micro-needling for enhanced penetration, specialized delivery systems for optimal absorption, and LED photobiomodulation to maximize cellular response. Each session is customized based on individual scalp condition and hair loss pattern.",
     benefits: [
       "Rejuvenates and reactivates dormant hair follicles",
       "Strengthens hair root structure and anchorage",
@@ -189,7 +197,8 @@ const SERVICE_DATA = {
       "Initial improvements in hair quality and scalp health are typically visible within 4-6 weeks. Significant hair regrowth and density improvement occurs between 3-6 months. Optimal results are achieved after completing 6-10 treatment sessions, with continued improvement up to 12 months post-treatment.",
     maintenance:
       "Maintenance protocol consists of quarterly or bi-annual treatment sessions depending on individual response. Daily home care regimen including specialized growth factor serums, nourishing shampoos, and scalp conditioning products. Regular monitoring and adjustment of maintenance schedule based on hair growth response.",
-    whatItDoes: "GFC Therapy works by delivering concentrated growth factors directly to the hair follicle stem cells, stimulating cellular regeneration and DNA repair mechanisms. This process reactivates the natural hair growth cycle, strengthens the follicle structure, and creates an optimal microenvironment for sustained hair growth. Unlike topical treatments, GFC addresses the fundamental cellular aging and damage that causes permanent hair loss.",
+    whatItDoes:
+      "GFC Therapy works by delivering concentrated growth factors directly to the hair follicle stem cells, stimulating cellular regeneration and DNA repair mechanisms. This process reactivates the natural hair growth cycle, strengthens the follicle structure, and creates an optimal microenvironment for sustained hair growth. Unlike topical treatments, GFC addresses the fundamental cellular aging and damage that causes permanent hair loss.",
   },
   "specialized-hair-exams": {
     name: "Specialized Hair Exams",
@@ -223,15 +232,17 @@ const SERVICE_DATA = {
       "Inform of recent illnesses",
       "No hair products on exam day",
     ],
-    
-    purpose: "Comprehensive diagnostic assessment for individuals experiencing hair loss, thinning, or scalp concerns. Essential for accurate diagnosis and personalized treatment planning.",
-    procedure: "Advanced scalp analysis using dermoscopic examination, hair pull tests, and microscopic evaluation to assess follicle health and identify underlying causes of hair concerns.",
-    whatItDoes: "Detailed examination of scalp condition, hair follicle density, hair shaft quality, and growth patterns to diagnose conditions like androgenetic alopecia, telogen effluvium, or scalp disorders.",
+
+    purpose:
+      "Comprehensive diagnostic assessment for individuals experiencing hair loss, thinning, or scalp concerns. Essential for accurate diagnosis and personalized treatment planning.",
+    procedure:
+      "Advanced scalp analysis using dermoscopic examination, hair pull tests, and microscopic evaluation to assess follicle health and identify underlying causes of hair concerns.",
+    whatItDoes:
+      "Detailed examination of scalp condition, hair follicle density, hair shaft quality, and growth patterns to diagnose conditions like androgenetic alopecia, telogen effluvium, or scalp disorders.",
     results:
       "Detailed diagnosis and personalized treatment plan within 24 hours",
     maintenance: "Follow-up consultations every 3 months",
-  
-    },
+  },
   "scalp-peel-treatment": {
     name: "Scalp Peel Treatment",
     category: "Hair Treatments",
@@ -263,14 +274,16 @@ const SERVICE_DATA = {
       "Avoid if scalp is irritated or infected",
       "No sun exposure for 1 week post-treatment",
     ],
-    
-    purpose: "Medical-grade scalp exfoliation for individuals with scalp buildup, dandruff, or compromised scalp health that prevents optimal hair growth.",
-    procedure: "Professional chemical exfoliation treatment that removes dead skin cells, excess sebum, and product buildup from the scalp to create an optimal environment for hair growth.",
-    whatItDoes: "Controlled chemical exfoliation dissolves scalp buildup and stimulates cellular turnover, improving scalp health and creating better conditions for hair follicle function.",
+
+    purpose:
+      "Medical-grade scalp exfoliation for individuals with scalp buildup, dandruff, or compromised scalp health that prevents optimal hair growth.",
+    procedure:
+      "Professional chemical exfoliation treatment that removes dead skin cells, excess sebum, and product buildup from the scalp to create an optimal environment for hair growth.",
+    whatItDoes:
+      "Controlled chemical exfoliation dissolves scalp buildup and stimulates cellular turnover, improving scalp health and creating better conditions for hair follicle function.",
     results: "Cleaner, healthier scalp within 1-2 weeks",
     maintenance: "Quarterly maintenance peels recommended",
-  
-    },
+  },
 
   // Skin Treatments
   "acne-scar-treatment": {
@@ -304,15 +317,17 @@ const SERVICE_DATA = {
       "No retinoids 1 week prior",
       "Inform doctor of skin conditions",
     ],
-    
-    purpose: "Advanced scar revision for individuals with acne scarring, post-acne marks, or skin texture irregularities seeking smoother, more even skin.",
-    procedure: "Combination treatment approach using laser resurfacing, chemical peels, microneedling, or dermal fillers to reduce scar appearance and improve skin texture.",
-    whatItDoes: "Multiple treatment modalities work synergistically to break down scar tissue, stimulate collagen production, and promote skin regeneration for improved texture and appearance.",
+
+    purpose:
+      "Advanced scar revision for individuals with acne scarring, post-acne marks, or skin texture irregularities seeking smoother, more even skin.",
+    procedure:
+      "Combination treatment approach using laser resurfacing, chemical peels, microneedling, or dermal fillers to reduce scar appearance and improve skin texture.",
+    whatItDoes:
+      "Multiple treatment modalities work synergistically to break down scar tissue, stimulate collagen production, and promote skin regeneration for improved texture and appearance.",
     results:
       "Noticeable improvement in 4-6 weeks with optimal results in 3-6 months",
     maintenance: "Maintenance treatments every 6-12 months",
-  
-    },
+  },
   "xanthelasma-removal": {
     name: "Xanthelasma Removal",
     category: "Skin Treatments",
@@ -344,15 +359,17 @@ const SERVICE_DATA = {
       "No smoking 2 weeks before/after",
       "Follow post-care instructions strictly",
     ],
-    
-    purpose: "Safe and effective removal of cholesterol deposits around the eyes for individuals with xanthelasma or similar eyelid deposits.",
-    procedure: "Precision surgical or laser removal of fatty deposits around the eye area with meticulous attention to eyelid anatomy and function.",
-    whatItDoes: "Targeted removal of cholesterol-laden deposits while preserving eyelid function and achieving optimal cosmetic results with minimal scarring.",
+
+    purpose:
+      "Safe and effective removal of cholesterol deposits around the eyes for individuals with xanthelasma or similar eyelid deposits.",
+    procedure:
+      "Precision surgical or laser removal of fatty deposits around the eye area with meticulous attention to eyelid anatomy and function.",
+    whatItDoes:
+      "Targeted removal of cholesterol-laden deposits while preserving eyelid function and achieving optimal cosmetic results with minimal scarring.",
     results:
       "Complete removal with minimal scarring, results visible immediately",
     maintenance: "Monitor cholesterol levels to prevent recurrence",
-  
-    },
+  },
   "freckle-treatment": {
     name: "Freckle Treatment",
     category: "Pigmentation Solutions",
@@ -384,14 +401,16 @@ const SERVICE_DATA = {
       "Use SPF 50+ daily after treatment",
       "Avoid retinoids and exfoliants 1 week prior",
     ],
-    
-    purpose: "Safe and effective freckle reduction using laser technology or chemical treatments.",
-    procedure: "Targeted treatment approach using laser energy or chemical agents to reduce freckle pigmentation.",
-    whatItDoes: "Selective destruction or inhibition of melanin-producing cells in freckles while preserving normal skin.",
+
+    purpose:
+      "Safe and effective freckle reduction using laser technology or chemical treatments.",
+    procedure:
+      "Targeted treatment approach using laser energy or chemical agents to reduce freckle pigmentation.",
+    whatItDoes:
+      "Selective destruction or inhibition of melanin-producing cells in freckles while preserving normal skin.",
     results: "50-80% reduction in freckles after complete treatment course",
     maintenance: "Annual maintenance treatments and strict sun protection",
-  
-    },
+  },
   "depigmentation-peels": {
     name: "Depigmentation Peels",
     category: "Pigmentation Solutions",
@@ -423,15 +442,17 @@ const SERVICE_DATA = {
       "Avoid if pregnant or breastfeeding",
       "Strict sun avoidance post-treatment",
     ],
-    
-    purpose: "Medical-grade chemical peels for pigmentation concerns including melasma and sun damage.",
-    procedure: "Controlled application of depigmenting agents to regulate melanin production and exfoliate pigmented skin.",
-    whatItDoes: "Chemical exfoliation combined with melanin inhibitors to gradually reduce pigmentation and even skin tone.",
+
+    purpose:
+      "Medical-grade chemical peels for pigmentation concerns including melasma and sun damage.",
+    procedure:
+      "Controlled application of depigmenting agents to regulate melanin production and exfoliate pigmented skin.",
+    whatItDoes:
+      "Chemical exfoliation combined with melanin inhibitors to gradually reduce pigmentation and even skin tone.",
     results:
       "Visible lightening in 2-4 weeks with optimal results in 2-3 months",
     maintenance: "Monthly maintenance peels and daily SPF use",
-  
-    },
+  },
   "cosmelan-depigmentation": {
     name: "Cosmelan Depigmentation",
     category: "Pigmentation Solutions",
@@ -463,15 +484,17 @@ const SERVICE_DATA = {
       "Strict adherence to home care routine",
       "Regular follow-up appointments required",
     ],
-    
-    purpose: "Professional depigmentation treatment for stubborn pigmentation including melasma.",
-    procedure: "Multi-step treatment involving intensive depigmenting mask followed by maintenance skincare.",
-    whatItDoes: "Powerful melanin inhibitors combined with skin renewal to address deep-seated pigmentation issues.",
+
+    purpose:
+      "Professional depigmentation treatment for stubborn pigmentation including melasma.",
+    procedure:
+      "Multi-step treatment involving intensive depigmenting mask followed by maintenance skincare.",
+    whatItDoes:
+      "Powerful melanin inhibitors combined with skin renewal to address deep-seated pigmentation issues.",
     results:
       "Significant skin brightening in 1-2 months with continued improvement",
     maintenance: "Maintenance products and periodic touch-ups as needed",
-  
-    },
+  },
   "glow-brightening-peel": {
     name: "Glow Brightening Peel",
     category: "Pigmentation Solutions",
@@ -503,14 +526,16 @@ const SERVICE_DATA = {
       "No harsh skincare products 1 week prior",
       "Use SPF 50+ daily after treatment",
     ],
-    
-    purpose: "Gentle exfoliation treatment for skin brightening and radiance improvement.",
-    procedure: "Mild chemical exfoliation combined with brightening agents for gradual skin improvement.",
-    whatItDoes: "Surface exfoliation removes dull skin cells while brightening agents enhance skin luminosity.",
+
+    purpose:
+      "Gentle exfoliation treatment for skin brightening and radiance improvement.",
+    procedure:
+      "Mild chemical exfoliation combined with brightening agents for gradual skin improvement.",
+    whatItDoes:
+      "Surface exfoliation removes dull skin cells while brightening agents enhance skin luminosity.",
     results: "Immediate glow with progressive brightening over 4-6 weeks",
     maintenance: "Monthly maintenance peels recommended",
-  
-    },
+  },
   "dermapen-for-pigmentation": {
     name: "Dermapen for Pigmentation",
     category: "Pigmentation Solutions",
@@ -542,14 +567,16 @@ const SERVICE_DATA = {
       "No recent chemical peels or laser treatments",
       "Strict sun protection post-treatment",
     ],
-    
-    purpose: "Microneedling treatment with targeted pigmentation solutions for localized pigment concerns.",
-    procedure: "Microneedling creates channels for pigment-regulating serums to penetrate deeper skin layers.",
-    whatItDoes: "Micro-channels enhance delivery of depigmenting agents while stimulating collagen for skin renewal.",
+
+    purpose:
+      "Microneedling treatment with targeted pigmentation solutions for localized pigment concerns.",
+    procedure:
+      "Microneedling creates channels for pigment-regulating serums to penetrate deeper skin layers.",
+    whatItDoes:
+      "Micro-channels enhance delivery of depigmenting agents while stimulating collagen for skin renewal.",
     results: "Visible improvement in pigmentation within 4-6 weeks",
     maintenance: "Maintenance sessions every 3-6 months",
-  
-    },
+  },
   "prp-vampire-facial": {
     name: "PRP Vampire Facial",
     category: "Pigmentation Solutions",
@@ -560,8 +587,10 @@ const SERVICE_DATA = {
     sessions: "3-4 sessions recommended",
     rating: 4.8,
     reviews: 189,
-    purpose: "Ideal for individuals seeking natural skin rejuvenation without synthetic fillers or toxins. Perfect for addressing fine lines, dull skin, uneven tone, acne scars, and signs of aging. Particularly effective for those wanting to improve skin quality using their body's own regenerative capabilities. Suitable for all skin types and ages.",
-    procedure: "The PRP Vampire Facial involves drawing a small amount of your blood, which is then processed to concentrate the platelet-rich plasma. This nutrient-rich serum is either applied topically after microneedling or injected into targeted areas. The treatment stimulates your skin's natural healing and regenerative processes.",
+    purpose:
+      "Ideal for individuals seeking natural skin rejuvenation without synthetic fillers or toxins. Perfect for addressing fine lines, dull skin, uneven tone, acne scars, and signs of aging. Particularly effective for those wanting to improve skin quality using their body's own regenerative capabilities. Suitable for all skin types and ages.",
+    procedure:
+      "The PRP Vampire Facial involves drawing a small amount of your blood, which is then processed to concentrate the platelet-rich plasma. This nutrient-rich serum is either applied topically after microneedling or injected into targeted areas. The treatment stimulates your skin's natural healing and regenerative processes.",
     benefits: [
       "100% natural skin rejuvenation using your own blood plasma",
       "Significant improvement in skin tone, texture, and radiance",
@@ -608,7 +637,8 @@ const SERVICE_DATA = {
       "Initial improvements in skin glow and texture are visible within 3-7 days. Progressive collagen stimulation leads to continued improvement over 4-6 weeks. Optimal results with significant reduction in fine lines, improved skin tone, and enhanced firmness are typically achieved after completing 3-4 treatment sessions spaced 4-6 weeks apart.",
     maintenance:
       "Maintenance treatments every 6-12 months to sustain collagen production and skin quality. Annual or bi-annual sessions are typically sufficient for most clients. Daily skin care regimen with recommended products helps maintain and enhance results between treatments.",
-    whatItDoes: "PRP Vampire Facial works by harnessing your body's natural healing mechanisms. Platelets contain over 1,500 bioactive proteins including growth factors (VEGF, EGF, FGF, PDGF) that stimulate cellular regeneration. When applied to the skin, these growth factors activate fibroblasts, increase collagen and elastin production, and promote tissue repair and renewal at the cellular level.",
+    whatItDoes:
+      "PRP Vampire Facial works by harnessing your body's natural healing mechanisms. Platelets contain over 1,500 bioactive proteins including growth factors (VEGF, EGF, FGF, PDGF) that stimulate cellular regeneration. When applied to the skin, these growth factors activate fibroblasts, increase collagen and elastin production, and promote tissue repair and renewal at the cellular level.",
   },
 
   // Missing Skin Treatments
@@ -643,15 +673,17 @@ const SERVICE_DATA = {
       "Avoid self-medication",
       "Keep area clean and dry",
     ],
-    
-    purpose: "Comprehensive treatment for bacterial, fungal, or viral skin infections requiring medical intervention and professional care.",
-    procedure: "Medical assessment followed by appropriate antimicrobial therapy, either topical, oral, or combination treatment based on infection type and severity.",
-    whatItDoes: "Evidence-based antimicrobial treatment that eliminates infection-causing organisms while supporting skin healing and preventing recurrence.",
+
+    purpose:
+      "Comprehensive treatment for bacterial, fungal, or viral skin infections requiring medical intervention and professional care.",
+    procedure:
+      "Medical assessment followed by appropriate antimicrobial therapy, either topical, oral, or combination treatment based on infection type and severity.",
+    whatItDoes:
+      "Evidence-based antimicrobial treatment that eliminates infection-causing organisms while supporting skin healing and preventing recurrence.",
     results:
       "Improvement within 3-7 days with complete resolution in 1-4 weeks",
     maintenance: "Follow-up visits as needed",
-  
-    },
+  },
 
   "melasma-treatment": {
     name: "Melasma Treatment",
@@ -684,15 +716,17 @@ const SERVICE_DATA = {
       "Patch test recommended",
       "Not during pregnancy",
     ],
-    
-    purpose: "Specialized treatment for hormonal pigmentation (melasma) that is resistant to conventional skincare and requires medical-grade interventions.",
-    procedure: "Combination therapy approach using topical medications, chemical peels, laser treatments, and sun protection to regulate melanin production.",
-    whatItDoes: "Multi-modal treatment that addresses hormonal triggers, inhibits melanin production, and prevents UV-induced pigmentation worsening.",
+
+    purpose:
+      "Specialized treatment for hormonal pigmentation (melasma) that is resistant to conventional skincare and requires medical-grade interventions.",
+    procedure:
+      "Combination therapy approach using topical medications, chemical peels, laser treatments, and sun protection to regulate melanin production.",
+    whatItDoes:
+      "Multi-modal treatment that addresses hormonal triggers, inhibits melanin production, and prevents UV-induced pigmentation worsening.",
     results:
       "Visible improvement in 4-8 weeks with continued progress over 3-6 months",
     maintenance: "Maintenance treatments every 3-6 months",
-  
-    },
+  },
 
   "mole-surgery": {
     name: "Mole Surgery",
@@ -725,14 +759,16 @@ const SERVICE_DATA = {
       "Keep wound clean and dry",
       "Follow aftercare instructions",
     ],
-    
-    purpose: "Surgical removal of moles for cosmetic improvement or medical necessity, performed by qualified medical professionals.",
-    procedure: "Precision surgical excision using sterile techniques, with appropriate closure methods based on mole size, location, and type.",
-    whatItDoes: "Complete removal of mole tissue with careful attention to achieving clear margins while minimizing scarring and preserving function.",
+
+    purpose:
+      "Surgical removal of moles for cosmetic improvement or medical necessity, performed by qualified medical professionals.",
+    procedure:
+      "Precision surgical excision using sterile techniques, with appropriate closure methods based on mole size, location, and type.",
+    whatItDoes:
+      "Complete removal of mole tissue with careful attention to achieving clear margins while minimizing scarring and preserving function.",
     results: "Complete removal with healing in 1-2 weeks",
     maintenance: "Regular skin checks recommended",
-  
-    },
+  },
 
   "skin-tag-removal": {
     name: "Skin Tag Removal",
@@ -765,14 +801,16 @@ const SERVICE_DATA = {
       "Use recommended ointments",
       "Avoid sun exposure initially",
     ],
-    
-    purpose: "Safe removal of skin tags and benign skin growths for cosmetic improvement and comfort.",
-    procedure: "Non-surgical removal using cryotherapy, electrocautery, or surgical excision depending on size and location.",
-    whatItDoes: "Precise removal of unwanted skin growths with minimal discomfort and excellent cosmetic outcomes.",
+
+    purpose:
+      "Safe removal of skin tags and benign skin growths for cosmetic improvement and comfort.",
+    procedure:
+      "Non-surgical removal using cryotherapy, electrocautery, or surgical excision depending on size and location.",
+    whatItDoes:
+      "Precise removal of unwanted skin growths with minimal discomfort and excellent cosmetic outcomes.",
     results: "Complete removal with healing in 3-7 days",
     maintenance: "Rare recurrence, regular monitoring advised",
-  
-    },
+  },
 
   "laser-mole-treatment": {
     name: "Laser Mole Treatment",
@@ -805,14 +843,16 @@ const SERVICE_DATA = {
       "Use sun protection",
       "Follow aftercare regimen",
     ],
-    
-    purpose: "Non-surgical laser removal of moles and skin lesions for patients preferring scarless treatment options.",
-    procedure: "Advanced laser technology that targets pigment in moles, breaking down tissue for natural elimination by the body.",
-    whatItDoes: "Selective photothermolysis targets melanin in mole tissue, causing fragmentation and absorption without damaging surrounding skin.",
+
+    purpose:
+      "Non-surgical laser removal of moles and skin lesions for patients preferring scarless treatment options.",
+    procedure:
+      "Advanced laser technology that targets pigment in moles, breaking down tissue for natural elimination by the body.",
+    whatItDoes:
+      "Selective photothermolysis targets melanin in mole tissue, causing fragmentation and absorption without damaging surrounding skin.",
     results: "Complete removal with healing in 1-2 weeks",
     maintenance: "Regular skin monitoring recommended",
-  
-    },
+  },
 
   "wart-cautery": {
     name: "Wart Cautery",
@@ -845,14 +885,16 @@ const SERVICE_DATA = {
       "Use prescribed medications",
       "Monitor for infection",
     ],
-    
-    purpose: "Effective removal of warts caused by HPV infection, using electrocautery for complete eradication.",
-    procedure: "Controlled electrocautery treatment that destroys wart tissue while stimulating immune response to prevent recurrence.",
-    whatItDoes: "Heat energy destroys wart tissue and triggers immune response against HPV, reducing likelihood of future wart formation.",
+
+    purpose:
+      "Effective removal of warts caused by HPV infection, using electrocautery for complete eradication.",
+    procedure:
+      "Controlled electrocautery treatment that destroys wart tissue while stimulating immune response to prevent recurrence.",
+    whatItDoes:
+      "Heat energy destroys wart tissue and triggers immune response against HPV, reducing likelihood of future wart formation.",
     results: "Complete removal with healing in 1-2 weeks",
     maintenance: "Follow-up if needed",
-  
-    },
+  },
 
   "dermapen-skin-treatment": {
     name: "Dermapen Treatment",
@@ -885,15 +927,17 @@ const SERVICE_DATA = {
       "Not suitable for active acne",
       "Pregnancy consultation required",
     ],
-    
-    purpose: "Microneedling treatment for various skin concerns including scarring, aging, and texture improvement.",
-    procedure: "Automated microneedling device creates micro-channels in skin to enhance product absorption and stimulate collagen production.",
-    whatItDoes: "Controlled micro-injuries trigger wound healing cascade, increasing collagen and elastin production for skin renewal and repair.",
+
+    purpose:
+      "Microneedling treatment for various skin concerns including scarring, aging, and texture improvement.",
+    procedure:
+      "Automated microneedling device creates micro-channels in skin to enhance product absorption and stimulate collagen production.",
+    whatItDoes:
+      "Controlled micro-injuries trigger wound healing cascade, increasing collagen and elastin production for skin renewal and repair.",
     results:
       "Progressive improvement over 4-6 weeks with optimal results at 3 months",
     maintenance: "Maintenance sessions every 6-12 months",
-  
-    },
+  },
 
   "stretch-marks-treatment": {
     name: "Stretch Marks Treatment",
@@ -926,15 +970,17 @@ const SERVICE_DATA = {
       "Avoid harsh products",
       "Patience required for results",
     ],
-    
-    purpose: "Comprehensive treatment for stretch marks and striae distensae to improve appearance and skin texture.",
-    procedure: "Combination treatments using laser therapy, microneedling, and topical treatments to rebuild skin structure.",
-    whatItDoes: "Stimulates collagen remodeling and skin regeneration to reduce stretch mark appearance and improve skin elasticity.",
+
+    purpose:
+      "Comprehensive treatment for stretch marks and striae distensae to improve appearance and skin texture.",
+    procedure:
+      "Combination treatments using laser therapy, microneedling, and topical treatments to rebuild skin structure.",
+    whatItDoes:
+      "Stimulates collagen remodeling and skin regeneration to reduce stretch mark appearance and improve skin elasticity.",
     results:
       "Visible improvement in 6-8 weeks with continued progress over 4-6 months",
     maintenance: "Maintenance treatments as needed",
-  
-    },
+  },
 
   // Acne and Scars Treatments
   "acne-peels": {
@@ -968,15 +1014,17 @@ const SERVICE_DATA = {
       "Not during active infection",
       "Patch test recommended",
     ],
-    
-    purpose: "Medical-grade chemical peels specifically formulated for acne-prone skin to reduce breakouts and improve skin clarity.",
-    procedure: "Controlled application of salicylic acid or glycolic acid peels to exfoliate acne-prone skin and regulate oil production.",
-    whatItDoes: "Chemical exfoliation unclogs pores, reduces bacterial colonization, and normalizes skin cell turnover to prevent acne formation.",
+
+    purpose:
+      "Medical-grade chemical peels specifically formulated for acne-prone skin to reduce breakouts and improve skin clarity.",
+    procedure:
+      "Controlled application of salicylic acid or glycolic acid peels to exfoliate acne-prone skin and regulate oil production.",
+    whatItDoes:
+      "Chemical exfoliation unclogs pores, reduces bacterial colonization, and normalizes skin cell turnover to prevent acne formation.",
     results:
       "Clearer skin within 2-4 weeks with optimal results after full treatment course",
     maintenance: "Monthly maintenance peels recommended",
-  
-    },
+  },
 
   "advanced-acne-treatments": {
     name: "Advanced Acne Treatments",
@@ -1009,15 +1057,17 @@ const SERVICE_DATA = {
       "Avoid certain medications",
       "Sun protection mandatory",
     ],
-    
-    purpose: "Comprehensive acne treatment combining multiple therapeutic modalities for severe or resistant acne cases.",
-    procedure: "Multi-step treatment protocol including medications, extractions, light therapy, and maintenance skincare.",
-    whatItDoes: "Addresses all acne-causing factors including excess oil production, bacterial infection, inflammation, and abnormal cell turnover.",
+
+    purpose:
+      "Comprehensive acne treatment combining multiple therapeutic modalities for severe or resistant acne cases.",
+    procedure:
+      "Multi-step treatment protocol including medications, extractions, light therapy, and maintenance skincare.",
+    whatItDoes:
+      "Addresses all acne-causing factors including excess oil production, bacterial infection, inflammation, and abnormal cell turnover.",
     results:
       "Significant improvement in 4-6 weeks with continued progress over 3 months",
     maintenance: "Maintenance visits every 1-3 months",
-  
-    },
+  },
 
   "carbon-peels": {
     name: "Carbon Peels",
@@ -1050,15 +1100,17 @@ const SERVICE_DATA = {
       "Mild redness expected",
       "Stay hydrated",
     ],
-    
-    purpose: "Advanced laser treatment combined with carbon mask for deep pore cleansing and acne reduction.",
-    procedure: "Carbon solution applied to skin, followed by laser activation to create photomechanical exfoliation.",
-    whatItDoes: "Laser energy creates acoustic waves that deeply cleanse pores and destroy acne-causing bacteria while stimulating collagen.",
+
+    purpose:
+      "Advanced laser treatment combined with carbon mask for deep pore cleansing and acne reduction.",
+    procedure:
+      "Carbon solution applied to skin, followed by laser activation to create photomechanical exfoliation.",
+    whatItDoes:
+      "Laser energy creates acoustic waves that deeply cleanse pores and destroy acne-causing bacteria while stimulating collagen.",
     results:
       "Improved skin clarity within 1-2 weeks with optimal results after 4-6 sessions",
     maintenance: "Monthly maintenance treatments",
-  
-    },
+  },
 
   "chemical-peels-acne": {
     name: "Chemical Peels for Acne",
@@ -1070,8 +1122,10 @@ const SERVICE_DATA = {
     sessions: "4-8 sessions recommended",
     rating: 4.7,
     reviews: 134,
-    purpose: "Designed for individuals struggling with acne, clogged pores, post-acne marks, and uneven skin texture. Particularly effective for comedonal acne, mild to moderate inflammatory acne, and acne-prone skin that hasn't responded well to topical treatments alone.",
-    procedure: "Chemical peels involve the controlled application of medical-grade acids to the skin surface. The treatment penetrates the epidermis to dissolve dead skin cells, unclog pores, and stimulate collagen production. The process is carefully monitored and neutralized to ensure optimal results with minimal discomfort.",
+    purpose:
+      "Designed for individuals struggling with acne, clogged pores, post-acne marks, and uneven skin texture. Particularly effective for comedonal acne, mild to moderate inflammatory acne, and acne-prone skin that hasn't responded well to topical treatments alone.",
+    procedure:
+      "Chemical peels involve the controlled application of medical-grade acids to the skin surface. The treatment penetrates the epidermis to dissolve dead skin cells, unclog pores, and stimulate collagen production. The process is carefully monitored and neutralized to ensure optimal results with minimal discomfort.",
     benefits: [
       "Deep exfoliation that removes built-up dead skin cells",
       "Effective pore unclogging to prevent comedones and blackheads",
@@ -1112,7 +1166,8 @@ const SERVICE_DATA = {
       "Noticeable improvement in skin clarity and reduction of active acne within 1-2 weeks. Significant reduction in pore size and improvement in skin texture occurs within 4-6 weeks. Optimal results with complete skin transformation are typically achieved after 4-8 treatment sessions spaced 2-4 weeks apart.",
     maintenance:
       "Maintenance peels every 4-6 weeks to sustain results and prevent acne recurrence. Daily home care regimen including gentle cleansing, appropriate moisturizers, and targeted acne treatments. Regular follow-up consultations to monitor skin response and adjust treatment plan.",
-    whatItDoes: "Chemical peels work by creating controlled chemical exfoliation that penetrates the skin's surface layers. The acids dissolve the bonds between dead skin cells, unclogging pores and removing the top layer of damaged skin. This process stimulates cellular turnover, reduces bacterial colonization, and triggers collagen synthesis for long-term skin improvement.",
+    whatItDoes:
+      "Chemical peels work by creating controlled chemical exfoliation that penetrates the skin's surface layers. The acids dissolve the bonds between dead skin cells, unclogging pores and removing the top layer of damaged skin. This process stimulates cellular turnover, reduces bacterial colonization, and triggers collagen synthesis for long-term skin improvement.",
   },
 
   "derma-roller-acne": {
@@ -1146,14 +1201,16 @@ const SERVICE_DATA = {
       "Sun protection essential",
       "Mild redness expected",
     ],
-    
-    purpose: "Microneedling treatment specifically adapted for acne-prone skin to improve texture and reduce scarring.",
-    procedure: "Sterile roller with fine needles creates micro-channels to enhance product penetration and stimulate healing.",
-    whatItDoes: "Micro-injuries trigger collagen production and improve delivery of acne treatments to deeper skin layers.",
+
+    purpose:
+      "Microneedling treatment specifically adapted for acne-prone skin to improve texture and reduce scarring.",
+    procedure:
+      "Sterile roller with fine needles creates micro-channels to enhance product penetration and stimulate healing.",
+    whatItDoes:
+      "Micro-injuries trigger collagen production and improve delivery of acne treatments to deeper skin layers.",
     results: "Improved texture in 4-6 weeks with optimal results at 3 months",
     maintenance: "Maintenance sessions every 3-6 months",
-  
-    },
+  },
 
   "fractional-laser-acne": {
     name: "Fractional Laser for Acne",
@@ -1186,15 +1243,17 @@ const SERVICE_DATA = {
       "Not during pregnancy",
       "Mild downtime expected",
     ],
-    
-    purpose: "Laser resurfacing treatment for acne scars and active acne reduction through controlled tissue ablation.",
-    procedure: "Fractional laser creates microscopic treatment zones to resurface skin and stimulate collagen remodeling.",
-    whatItDoes: "Precise laser energy removes damaged skin layers and triggers wound healing response for scar reduction and skin renewal.",
+
+    purpose:
+      "Laser resurfacing treatment for acne scars and active acne reduction through controlled tissue ablation.",
+    procedure:
+      "Fractional laser creates microscopic treatment zones to resurface skin and stimulate collagen remodeling.",
+    whatItDoes:
+      "Precise laser energy removes damaged skin layers and triggers wound healing response for scar reduction and skin renewal.",
     results:
       "Visible improvement in 4-6 weeks with continued progress over 3-6 months",
     maintenance: "Maintenance treatments as needed",
-  
-    },
+  },
 
   "radiofrequency-microneedling": {
     name: "Radiofrequency Microneedling",
@@ -1227,15 +1286,17 @@ const SERVICE_DATA = {
       "Sun protection essential",
       "Mild swelling expected",
     ],
-    
-    purpose: "Combination treatment using radiofrequency energy and microneedling for acne scar improvement and skin tightening.",
-    procedure: "Microneedles deliver radiofrequency energy to deeper skin layers for collagen contraction and remodeling.",
-    whatItDoes: "Thermal energy causes collagen contraction while microneedling enhances product delivery and stimulates tissue repair.",
+
+    purpose:
+      "Combination treatment using radiofrequency energy and microneedling for acne scar improvement and skin tightening.",
+    procedure:
+      "Microneedles deliver radiofrequency energy to deeper skin layers for collagen contraction and remodeling.",
+    whatItDoes:
+      "Thermal energy causes collagen contraction while microneedling enhances product delivery and stimulates tissue repair.",
     results:
       "Progressive improvement over 3-6 months with optimal results at 6-12 months",
     maintenance: "Annual maintenance treatments",
-  
-    },
+  },
 
   "acne-cleanup-facial": {
     name: "Acne Cleanup Facial",
@@ -1269,15 +1330,17 @@ const SERVICE_DATA = {
       "Use recommended products",
       "Sun protection advised",
     ],
-    
-    purpose: "Therapeutic facial treatment focused on deep cleansing, extraction, and calming of acne-prone skin.",
-    procedure: "Multi-step facial including cleansing, steaming, extractions, treatments, and calming mask application.",
-    whatItDoes: "Comprehensive skin cleansing and treatment that removes impurities, reduces inflammation, and supports skin healing.",
+
+    purpose:
+      "Therapeutic facial treatment focused on deep cleansing, extraction, and calming of acne-prone skin.",
+    procedure:
+      "Multi-step facial including cleansing, steaming, extractions, treatments, and calming mask application.",
+    whatItDoes:
+      "Comprehensive skin cleansing and treatment that removes impurities, reduces inflammation, and supports skin healing.",
     results:
       "Clearer skin after first session with cumulative benefits over time",
     maintenance: "Regular facials for acne control",
-  
-    },
+  },
 
   "laser-freckles-treatment": {
     name: "Laser for Freckles",
@@ -1310,15 +1373,17 @@ const SERVICE_DATA = {
       "Patch test recommended",
       "Mild redness expected",
     ],
-    
-    purpose: "Precision laser treatment for freckle reduction and pigmentation correction.",
-    procedure: "Targeted laser energy specifically absorbed by melanin in freckles for selective destruction.",
-    whatItDoes: "Photothermolysis targets melanin pigment in freckles while sparing surrounding normal skin tissue.",
+
+    purpose:
+      "Precision laser treatment for freckle reduction and pigmentation correction.",
+    procedure:
+      "Targeted laser energy specifically absorbed by melanin in freckles for selective destruction.",
+    whatItDoes:
+      "Photothermolysis targets melanin pigment in freckles while sparing surrounding normal skin tissue.",
     results:
       "Lightening in 2-4 weeks with optimal results after full treatment course",
     maintenance: "Maintenance sessions as needed",
-  
-    },
+  },
 
   "microneedling-radiofrequency-stretch-marks": {
     name: "Microneedling Radiofrequency for Stretch Marks",
@@ -1351,15 +1416,17 @@ const SERVICE_DATA = {
       "Mild discomfort expected",
       "Sun protection essential",
     ],
-    
-    purpose: "Advanced treatment combining microneedling and radiofrequency for stretch mark reduction.",
-    procedure: "Microneedles deliver radiofrequency energy to stretch mark areas for collagen stimulation and remodeling.",
-    whatItDoes: "Thermal energy and micro-injuries work together to rebuild dermal structure and reduce stretch mark appearance.",
+
+    purpose:
+      "Advanced treatment combining microneedling and radiofrequency for stretch mark reduction.",
+    procedure:
+      "Microneedles deliver radiofrequency energy to stretch mark areas for collagen stimulation and remodeling.",
+    whatItDoes:
+      "Thermal energy and micro-injuries work together to rebuild dermal structure and reduce stretch mark appearance.",
     results:
       "Visible improvement in 6-8 weeks with continued progress over 4-6 months",
     maintenance: "Maintenance treatments every 6-12 months",
-  
-    },
+  },
 
   // Under Eyes Treatments
   "dark-circles-removal": {
@@ -1393,15 +1460,17 @@ const SERVICE_DATA = {
       "Sun protection for area",
       "Patch test recommended",
     ],
-    
-    purpose: "Comprehensive treatment addressing multiple causes of dark circles including pigmentation, vascular issues, and volume loss.",
-    procedure: "Multi-modal approach using topical treatments, fillers, laser therapy, and lifestyle optimization.",
-    whatItDoes: "Addresses root causes of dark circles through pigment regulation, vascular improvement, and structural support.",
+
+    purpose:
+      "Comprehensive treatment addressing multiple causes of dark circles including pigmentation, vascular issues, and volume loss.",
+    procedure:
+      "Multi-modal approach using topical treatments, fillers, laser therapy, and lifestyle optimization.",
+    whatItDoes:
+      "Addresses root causes of dark circles through pigment regulation, vascular improvement, and structural support.",
     results:
       "Visible brightening in 2-4 weeks with optimal results after 2-3 months",
     maintenance: "Monthly maintenance treatments",
-  
-    },
+  },
 
   "under-eye-rejuvenation": {
     name: "Under Eye Rejuvenation",
@@ -1434,15 +1503,17 @@ const SERVICE_DATA = {
       "Sun protection essential",
       "No harsh products",
     ],
-    
-    purpose: "Complete eye area treatment combining hydration, firming, and brightening for comprehensive rejuvenation.",
-    procedure: "Combination therapy including peels, fillers, laser treatments, and specialized skincare for eye area.",
-    whatItDoes: "Multi-faceted approach that improves skin quality, restores volume, and enhances eye area appearance.",
+
+    purpose:
+      "Complete eye area treatment combining hydration, firming, and brightening for comprehensive rejuvenation.",
+    procedure:
+      "Combination therapy including peels, fillers, laser treatments, and specialized skincare for eye area.",
+    whatItDoes:
+      "Multi-faceted approach that improves skin quality, restores volume, and enhances eye area appearance.",
     results:
       "Progressive improvement over 4-6 weeks with optimal results at 3 months",
     maintenance: "Maintenance sessions every 3-6 months",
-  
-    },
+  },
 
   "under-eye-boosters": {
     name: "Under Eye Boosters",
@@ -1475,14 +1546,16 @@ const SERVICE_DATA = {
       "Mild bruising possible",
       "Ice application helpful",
     ],
-    
-    purpose: "Volume restoration and skin quality improvement for the delicate under-eye area using hyaluronic acid fillers.",
-    procedure: "Precision injection of hyaluronic acid fillers into tear trough area with careful anatomical consideration.",
-    whatItDoes: "Hyaluronic acid restores lost volume and improves skin hydration, reducing shadows and hollowing under eyes.",
+
+    purpose:
+      "Volume restoration and skin quality improvement for the delicate under-eye area using hyaluronic acid fillers.",
+    procedure:
+      "Precision injection of hyaluronic acid fillers into tear trough area with careful anatomical consideration.",
+    whatItDoes:
+      "Hyaluronic acid restores lost volume and improves skin hydration, reducing shadows and hollowing under eyes.",
     results: "Immediate plumping with optimal results in 2 weeks",
     maintenance: "Maintenance treatments every 6-12 months",
-  
-    },
+  },
 
   // Additional Pigmentation Treatments
   "hydrafacial-basic": {
@@ -1495,8 +1568,10 @@ const SERVICE_DATA = {
     sessions: "Monthly recommended",
     rating: 4.7,
     reviews: 203,
-    purpose: "Ideal for individuals seeking immediate skin improvement without downtime. Perfect for addressing dull skin, enlarged pores, mild hyperpigmentation, and dehydration. Suitable for all skin types including sensitive skin. Excellent for maintaining skin health between more intensive treatments.",
-    procedure: "The HydraFacial uses a specialized handpiece that creates a vortex to simultaneously cleanse, exfoliate, and infuse the skin with nourishing serums. The treatment involves a multi-step process that removes impurities while delivering hydration and antioxidants deep into the skin layers.",
+    purpose:
+      "Ideal for individuals seeking immediate skin improvement without downtime. Perfect for addressing dull skin, enlarged pores, mild hyperpigmentation, and dehydration. Suitable for all skin types including sensitive skin. Excellent for maintaining skin health between more intensive treatments.",
+    procedure:
+      "The HydraFacial uses a specialized handpiece that creates a vortex to simultaneously cleanse, exfoliate, and infuse the skin with nourishing serums. The treatment involves a multi-step process that removes impurities while delivering hydration and antioxidants deep into the skin layers.",
     benefits: [
       "Deep cleansing that removes 99% of impurities and oil",
       "Intense hydration that improves skin moisture levels by 70%",
@@ -1535,7 +1610,8 @@ const SERVICE_DATA = {
       "Immediate visible improvements including radiant glow, smoother texture, and reduced pore appearance. Skin appears more hydrated and youthful within minutes. Cumulative benefits develop over time with improved skin tone, reduced fine lines, and enhanced overall skin health. Optimal results achieved with monthly treatments.",
     maintenance:
       "Monthly HydraFacial treatments recommended for maintaining optimal skin health and preventing signs of aging. Can be combined with quarterly deeper treatments for comprehensive skin rejuvenation. Daily home care regimen with recommended HydraFacial products enhances and prolongs results.",
-    whatItDoes: "HydraFacial uses patented Vortex-Fusion technology to create a vortex that simultaneously removes impurities while infusing nourishing serums deep into the skin. This spiral suction technology provides superior product penetration compared to traditional topical application, delivering active ingredients to where they are most effective for maximum results.",
+    whatItDoes:
+      "HydraFacial uses patented Vortex-Fusion technology to create a vortex that simultaneously removes impurities while infusing nourishing serums deep into the skin. This spiral suction technology provides superior product penetration compared to traditional topical application, delivering active ingredients to where they are most effective for maximum results.",
   },
 
   "hydrafacial-elite": {
@@ -1569,14 +1645,16 @@ const SERVICE_DATA = {
       "Mild redness possible",
       "Stay hydrated",
     ],
-    
-    purpose: "Advanced hydradermabrasion with enhanced serums and boosters for superior skin transformation.",
-    procedure: "Multi-step hydradermabrasion treatment with premium serums, boosters, and lymphatic drainage.",
-    whatItDoes: "Enhanced hydradermabrasion protocol with specialized serums provides deeper cleansing and more comprehensive skin benefits.",
+
+    purpose:
+      "Advanced hydradermabrasion with enhanced serums and boosters for superior skin transformation.",
+    procedure:
+      "Multi-step hydradermabrasion treatment with premium serums, boosters, and lymphatic drainage.",
+    whatItDoes:
+      "Enhanced hydradermabrasion protocol with specialized serums provides deeper cleansing and more comprehensive skin benefits.",
     results: "Immediate radiance with progressive improvement over sessions",
     maintenance: "Regular treatments for sustained benefits",
-  
-    },
+  },
 
   "skin-boosters-pigmentation": {
     name: "Skin Boosters for Pigmentation",
@@ -1609,15 +1687,17 @@ const SERVICE_DATA = {
       "Avoid strenuous exercise",
       "Sun protection essential",
     ],
-    
-    purpose: "Vitamin and antioxidant infusions to brighten skin and protect against pigmentation-causing factors.",
-    procedure: "Intradermal delivery of brightening agents and antioxidants through micro-injection technique.",
-    whatItDoes: "Direct delivery of skin-brightening compounds enhances cellular protection and regulates melanin production.",
+
+    purpose:
+      "Vitamin and antioxidant infusions to brighten skin and protect against pigmentation-causing factors.",
+    procedure:
+      "Intradermal delivery of brightening agents and antioxidants through micro-injection technique.",
+    whatItDoes:
+      "Direct delivery of skin-brightening compounds enhances cellular protection and regulates melanin production.",
     results:
       "Progressive brightening over 4-6 weeks with optimal results at 3 months",
     maintenance: "Maintenance sessions every 6-12 months",
-  
-    },
+  },
 
   // Medifacial Treatments
   "diamond-polishing": {
@@ -1651,14 +1731,16 @@ const SERVICE_DATA = {
       "Sun protection advised",
       "Stay hydrated",
     ],
-    
-    purpose: "Crystal-free microdermabrasion for gentle skin exfoliation and texture improvement.",
-    procedure: "Diamond-encrusted tips gently exfoliate skin surface while vacuum suction removes dead cells.",
-    whatItDoes: "Mechanical exfoliation removes surface debris and stimulates circulation without abrasive crystals.",
+
+    purpose:
+      "Crystal-free microdermabrasion for gentle skin exfoliation and texture improvement.",
+    procedure:
+      "Diamond-encrusted tips gently exfoliate skin surface while vacuum suction removes dead cells.",
+    whatItDoes:
+      "Mechanical exfoliation removes surface debris and stimulates circulation without abrasive crystals.",
     results: "Immediate smoothness with cumulative glow over time",
     maintenance: "Regular treatments for maintained results",
-  
-    },
+  },
 
   "oxy-facials": {
     name: "OxyFacials",
@@ -1691,14 +1773,16 @@ const SERVICE_DATA = {
       "Sun protection recommended",
       "Mild tingling sensation",
     ],
-    
-    purpose: "Oxygen-infused treatment for skin hydration, oxygenation, and nutrient delivery.",
-    procedure: "Pressurized oxygen delivery system infuses vitamins and nutrients deep into skin tissues.",
-    whatItDoes: "Super-oxygenated serums penetrate deeply to enhance cellular metabolism and skin function.",
+
+    purpose:
+      "Oxygen-infused treatment for skin hydration, oxygenation, and nutrient delivery.",
+    procedure:
+      "Pressurized oxygen delivery system infuses vitamins and nutrients deep into skin tissues.",
+    whatItDoes:
+      "Super-oxygenated serums penetrate deeply to enhance cellular metabolism and skin function.",
     results: "Immediate freshness with progressive improvement over sessions",
     maintenance: "Regular sessions for optimal oxygenation",
-  
-    },
+  },
 
   "oxyglow-treatment": {
     name: "Oxyglow Treatment",
@@ -1731,14 +1815,16 @@ const SERVICE_DATA = {
       "Professional supervision",
       "Results-oriented approach",
     ],
-    
-    purpose: "Advanced oxygen therapy combined with LED light for comprehensive skin rejuvenation.",
-    procedure: "Oxygen infusion treatment enhanced with specific wavelength LED light therapy.",
-    whatItDoes: "Oxygen and light energy work synergistically to improve cellular function and skin appearance.",
+
+    purpose:
+      "Advanced oxygen therapy combined with LED light for comprehensive skin rejuvenation.",
+    procedure:
+      "Oxygen infusion treatment enhanced with specific wavelength LED light therapy.",
+    whatItDoes:
+      "Oxygen and light energy work synergistically to improve cellular function and skin appearance.",
     results: "Dramatic glow improvement with continued enhancement over time",
     maintenance: "Weekly treatments for sustained radiance",
-  
-    },
+  },
 
   "instabright-rejuvenation": {
     name: "InstaBright Rejuvenation",
@@ -1771,14 +1857,16 @@ const SERVICE_DATA = {
       "Avoid retinoids temporarily",
       "Stay hydrated",
     ],
-    
-    purpose: "Instant skin brightening treatment using vitamin C derivatives and gentle exfoliation.",
-    procedure: "Vitamin C infusion combined with mild chemical exfoliation for immediate radiance.",
-    whatItDoes: "Antioxidant treatment neutralizes free radicals while exfoliation removes dull surface cells.",
+
+    purpose:
+      "Instant skin brightening treatment using vitamin C derivatives and gentle exfoliation.",
+    procedure:
+      "Vitamin C infusion combined with mild chemical exfoliation for immediate radiance.",
+    whatItDoes:
+      "Antioxidant treatment neutralizes free radicals while exfoliation removes dull surface cells.",
     results: "Immediate radiance with cumulative brightening effects",
     maintenance: "Regular treatments for maintained glow",
-  
-    },
+  },
 
   "powerlift-medifacial": {
     name: "Powerlift Medifacial",
@@ -1811,14 +1899,16 @@ const SERVICE_DATA = {
       "Results vary by age",
       "Maintenance required",
     ],
-    
-    purpose: "Anti-aging facial with lifting peptides and collagen stimulation for skin firming.",
-    procedure: "Peptide-rich treatment combined with massage techniques for facial muscle toning.",
-    whatItDoes: "Bioactive peptides stimulate collagen production and improve facial muscle tone.",
+
+    purpose:
+      "Anti-aging facial with lifting peptides and collagen stimulation for skin firming.",
+    procedure:
+      "Peptide-rich treatment combined with massage techniques for facial muscle toning.",
+    whatItDoes:
+      "Bioactive peptides stimulate collagen production and improve facial muscle tone.",
     results: "Immediate lift with progressive firming over 4-6 weeks",
     maintenance: "Regular sessions for sustained lifting effects",
-  
-    },
+  },
 
   "power-glow-facial": {
     name: "Power Glow Facial",
@@ -1851,14 +1941,16 @@ const SERVICE_DATA = {
       "Sun protection mandatory",
       "Hydration essential",
     ],
-    
-    purpose: "Intensive brightening treatment combining multiple technologies for dramatic skin improvement.",
-    procedure: "Multi-step treatment protocol combining exfoliation, infusion, and light therapy.",
-    whatItDoes: "Comprehensive approach addresses multiple skin concerns for enhanced radiance and texture.",
+
+    purpose:
+      "Intensive brightening treatment combining multiple technologies for dramatic skin improvement.",
+    procedure:
+      "Multi-step treatment protocol combining exfoliation, infusion, and light therapy.",
+    whatItDoes:
+      "Comprehensive approach addresses multiple skin concerns for enhanced radiance and texture.",
     results: "Exceptional radiance with progressive skin health improvement",
     maintenance: "Weekly treatments for optimal glow maintenance",
-  
-    },
+  },
 
   "iv-infusions-glow": {
     name: "IV Infusions for Glow",
@@ -1891,14 +1983,16 @@ const SERVICE_DATA = {
       "Mild discomfort possible",
       "Hydration focus",
     ],
-    
-    purpose: "Intravenous nutrient delivery for systemic skin health and radiance improvement.",
-    procedure: "IV administration of vitamins, minerals, and antioxidants for whole-body skin nourishment.",
-    whatItDoes: "Direct nutrient delivery bypasses digestive system for maximum bioavailability and skin benefits.",
+
+    purpose:
+      "Intravenous nutrient delivery for systemic skin health and radiance improvement.",
+    procedure:
+      "IV administration of vitamins, minerals, and antioxidants for whole-body skin nourishment.",
+    whatItDoes:
+      "Direct nutrient delivery bypasses digestive system for maximum bioavailability and skin benefits.",
     results: "Progressive internal glow with enhanced skin radiance over time",
     maintenance: "Regular infusions for sustained benefits",
-  
-    },
+  },
 
   // Anti Aging Treatments
   "wrinkles-treatment": {
@@ -1911,8 +2005,10 @@ const SERVICE_DATA = {
     sessions: "Varies by treatment type",
     rating: 4.8,
     reviews: 234,
-    purpose: "Designed for individuals with dynamic wrinkles caused by repetitive facial muscle movements. Ideal for treating forehead lines, frown lines (11's), crow's feet, and brow furrows. Perfect for both preventive treatment (early 20s-30s) and corrective treatment (30s-60s). Not suitable for static wrinkles caused by skin aging or volume loss.",
-    procedure: "Neuromodulator treatment involves precise injection of botulinum toxin into targeted facial muscles using fine-gauge needles. The treatment temporarily blocks nerve signals to the muscles, causing them to relax and allowing the skin to smooth out. The procedure is quick, virtually painless, and requires no downtime.",
+    purpose:
+      "Designed for individuals with dynamic wrinkles caused by repetitive facial muscle movements. Ideal for treating forehead lines, frown lines (11's), crow's feet, and brow furrows. Perfect for both preventive treatment (early 20s-30s) and corrective treatment (30s-60s). Not suitable for static wrinkles caused by skin aging or volume loss.",
+    procedure:
+      "Neuromodulator treatment involves precise injection of botulinum toxin into targeted facial muscles using fine-gauge needles. The treatment temporarily blocks nerve signals to the muscles, causing them to relax and allowing the skin to smooth out. The procedure is quick, virtually painless, and requires no downtime.",
     benefits: [
       "Dramatic reduction of dynamic facial wrinkles and fine lines",
       "Prevention of new wrinkle formation in treated areas",
@@ -1959,7 +2055,8 @@ const SERVICE_DATA = {
       "Initial muscle relaxation begins within 24-72 hours with progressive improvement over 5-7 days. Optimal results are visible at 10-14 days post-treatment. Effects typically last 3-6 months depending on individual metabolism, dosage, and treatment area. Regular maintenance treatments help prevent wrinkle recurrence and may lead to longer-lasting results over time.",
     maintenance:
       "Maintenance treatments every 3-6 months depending on individual response and desired level of wrinkle prevention. Most clients find that regular treatments lead to longer-lasting results as facial muscles become trained to relax. Annual or bi-annual treatments are sufficient for many clients once optimal results are achieved.",
-    whatItDoes: "Neuromodulator treatments work by temporarily blocking the nerve signals that cause facial muscles to contract. The botulinum toxin binds to nerve endings, preventing the release of acetylcholine, which is the chemical messenger that triggers muscle contraction. This causes the targeted muscles to relax, smoothing out the overlying skin and preventing the formation of dynamic wrinkles. The treatment is completely reversible and wears off naturally over time.",
+    whatItDoes:
+      "Neuromodulator treatments work by temporarily blocking the nerve signals that cause facial muscles to contract. The botulinum toxin binds to nerve endings, preventing the release of acetylcholine, which is the chemical messenger that triggers muscle contraction. This causes the targeted muscles to relax, smoothing out the overlying skin and preventing the formation of dynamic wrinkles. The treatment is completely reversible and wears off naturally over time.",
   },
 
   "anti-aging-peels": {
@@ -1993,15 +2090,17 @@ const SERVICE_DATA = {
       "Retinoid preparation",
       "Hydration essential",
     ],
-    
-    purpose: "Medical-grade chemical peels designed for mature skin to stimulate collagen and reduce aging signs.",
-    procedure: "Controlled chemical exfoliation using age-appropriate acids for skin renewal and firmness.",
-    whatItDoes: "Exfoliation removes damaged skin layers while stimulating collagen production for youthful appearance.",
+
+    purpose:
+      "Medical-grade chemical peels designed for mature skin to stimulate collagen and reduce aging signs.",
+    procedure:
+      "Controlled chemical exfoliation using age-appropriate acids for skin renewal and firmness.",
+    whatItDoes:
+      "Exfoliation removes damaged skin layers while stimulating collagen production for youthful appearance.",
     results:
       "Progressive improvement over 4-6 weeks with optimal results after full course",
     maintenance: "Maintenance peels every 3-6 months",
-  
-    },
+  },
 
   "collagen-boosters": {
     name: "Collagen Boosters",
@@ -2034,15 +2133,17 @@ const SERVICE_DATA = {
       "Sun protection essential",
       "Healthy lifestyle support",
     ],
-    
-    purpose: "Bioactive collagen stimulation treatment to restore skin elasticity and reduce fine lines.",
-    procedure: "Collagen-building peptides and nutrients delivered through various application methods.",
-    whatItDoes: "Stimulates natural collagen production and strengthens skin structure from within.",
+
+    purpose:
+      "Bioactive collagen stimulation treatment to restore skin elasticity and reduce fine lines.",
+    procedure:
+      "Collagen-building peptides and nutrients delivered through various application methods.",
+    whatItDoes:
+      "Stimulates natural collagen production and strengthens skin structure from within.",
     results:
       "Progressive firming over 4-8 weeks with optimal results at 3-6 months",
     maintenance: "Maintenance treatments every 6-12 months",
-  
-    },
+  },
 
   "skin-tightening-treatment": {
     name: "Skin Tightening Treatment",
@@ -2075,15 +2176,17 @@ const SERVICE_DATA = {
       "Sun protection essential",
       "Results vary by age",
     ],
-    
-    purpose: "Non-surgical skin tightening using advanced technologies to lift and firm aging skin.",
-    procedure: "Thermal energy delivery to deeper skin layers causing collagen contraction and remodeling.",
-    whatItDoes: "Controlled heating stimulates collagen production and immediate tissue contraction for firmer skin.",
+
+    purpose:
+      "Non-surgical skin tightening using advanced technologies to lift and firm aging skin.",
+    procedure:
+      "Thermal energy delivery to deeper skin layers causing collagen contraction and remodeling.",
+    whatItDoes:
+      "Controlled heating stimulates collagen production and immediate tissue contraction for firmer skin.",
     results:
       "Progressive tightening over 2-6 months with optimal results at 3-6 months",
     maintenance: "Annual maintenance treatments",
-  
-    },
+  },
 
   // Laser Treatments
   "laser-hair-removal": {
@@ -2096,8 +2199,10 @@ const SERVICE_DATA = {
     sessions: "6-8 sessions recommended",
     rating: 4.7,
     reviews: 312,
-    purpose: "Ideal for individuals seeking permanent hair reduction on face, body, or bikini areas. Effective for all skin types and hair colors (except white/light gray hair). Particularly beneficial for those tired of frequent shaving, waxing, or plucking. Not suitable for pregnant women or individuals with certain medical conditions.",
-    procedure: "Laser hair removal uses concentrated light energy that is absorbed by the melanin in hair follicles. This energy converts to heat, damaging the follicle and inhibiting future hair growth. The procedure is performed with cooling mechanisms to minimize discomfort and protect the skin surface.",
+    purpose:
+      "Ideal for individuals seeking permanent hair reduction on face, body, or bikini areas. Effective for all skin types and hair colors (except white/light gray hair). Particularly beneficial for those tired of frequent shaving, waxing, or plucking. Not suitable for pregnant women or individuals with certain medical conditions.",
+    procedure:
+      "Laser hair removal uses concentrated light energy that is absorbed by the melanin in hair follicles. This energy converts to heat, damaging the follicle and inhibiting future hair growth. The procedure is performed with cooling mechanisms to minimize discomfort and protect the skin surface.",
     benefits: [
       "Permanent reduction of unwanted hair growth (up to 90%)",
       "Precision targeting of individual hair follicles",
@@ -2140,7 +2245,8 @@ const SERVICE_DATA = {
       "Noticeable hair reduction after 3-4 sessions with progressive improvement. Most clients achieve 70-90% permanent hair reduction after completing 6-8 treatment sessions. Results vary based on hair color, skin type, and hormonal factors. Touch-up sessions may be needed annually for optimal long-term results.",
     maintenance:
       "Annual or bi-annual touch-up sessions to maintain results. Most clients require only 1-2 maintenance treatments per year after completing the initial treatment course. Continued sun protection and gentle skin care help preserve results.",
-    whatItDoes: "Laser hair removal works by emitting concentrated light energy that is selectively absorbed by the melanin pigment in hair follicles. This energy transforms into heat, damaging the follicle's growth center and preventing future hair production. The laser's wavelength and cooling systems ensure the treatment is safe for the skin while effectively targeting hair roots.",
+    whatItDoes:
+      "Laser hair removal works by emitting concentrated light energy that is selectively absorbed by the melanin pigment in hair follicles. This energy transforms into heat, damaging the follicle's growth center and preventing future hair production. The laser's wavelength and cooling systems ensure the treatment is safe for the skin while effectively targeting hair roots.",
   },
 
   "laser-hair-reduction-females": {
@@ -2174,15 +2280,17 @@ const SERVICE_DATA = {
       "Sun protection essential",
       "Proper aftercare",
     ],
-    
-    purpose: "Specialized laser hair removal designed for female hormonal patterns and hair growth.",
-    procedure: "Gender-specific laser parameters and treatment protocols for optimal female hair reduction.",
-    whatItDoes: "Targets female pattern hair growth with appropriate energy levels and treatment intervals.",
+
+    purpose:
+      "Specialized laser hair removal designed for female hormonal patterns and hair growth.",
+    procedure:
+      "Gender-specific laser parameters and treatment protocols for optimal female hair reduction.",
+    whatItDoes:
+      "Targets female pattern hair growth with appropriate energy levels and treatment intervals.",
     results:
       "Progressive hair reduction with optimal feminine smoothing achieved",
     maintenance: "Maintenance sessions as needed",
-  
-    },
+  },
 
   "laser-hair-reduction-males": {
     name: "Laser Hair Reduction for Males",
@@ -2215,14 +2323,16 @@ const SERVICE_DATA = {
       "Thicker hair considerations",
       "Proper cooling essential",
     ],
-    
-    purpose: "Advanced laser hair removal for male pattern hair growth including back and chest areas.",
-    procedure: "High-energy laser treatment adapted for thicker male hair and larger treatment areas.",
-    whatItDoes: "Powerful laser energy effectively treats coarse male hair while maintaining skin safety.",
+
+    purpose:
+      "Advanced laser hair removal for male pattern hair growth including back and chest areas.",
+    procedure:
+      "High-energy laser treatment adapted for thicker male hair and larger treatment areas.",
+    whatItDoes:
+      "Powerful laser energy effectively treats coarse male hair while maintaining skin safety.",
     results: "Significant reduction with optimal masculine grooming achieved",
     maintenance: "Periodic maintenance for sustained results",
-  
-    },
+  },
 
   "birthmark-removal": {
     name: "Birthmark Removal",
@@ -2255,14 +2365,16 @@ const SERVICE_DATA = {
       "Skin type considerations",
       "Realistic expectations",
     ],
-    
-    purpose: "Safe laser removal of congenital birthmarks for cosmetic improvement.",
-    procedure: "Precision laser treatment targeting birthmark pigment with careful energy selection.",
-    whatItDoes: "Selective pigment destruction breaks down birthmark tissue for gradual fading and removal.",
+
+    purpose:
+      "Safe laser removal of congenital birthmarks for cosmetic improvement.",
+    procedure:
+      "Precision laser treatment targeting birthmark pigment with careful energy selection.",
+    whatItDoes:
+      "Selective pigment destruction breaks down birthmark tissue for gradual fading and removal.",
     results: "Progressive fading with optimal removal over treatment course",
     maintenance: "Follow-up monitoring recommended",
-  
-    },
+  },
 
   "tattoo-removal": {
     name: "Tattoo Removal",
@@ -2295,15 +2407,17 @@ const SERVICE_DATA = {
       "Skin protection essential",
       "Realistic time frame",
     ],
-    
-    purpose: "Professional laser tattoo removal using advanced Q-switched technology.",
-    procedure: "High-energy laser pulses fragment tattoo ink for body elimination over multiple sessions.",
-    whatItDoes: "Photomechanical effect breaks down ink particles into smaller fragments the body can remove.",
+
+    purpose:
+      "Professional laser tattoo removal using advanced Q-switched technology.",
+    procedure:
+      "High-energy laser pulses fragment tattoo ink for body elimination over multiple sessions.",
+    whatItDoes:
+      "Photomechanical effect breaks down ink particles into smaller fragments the body can remove.",
     results:
       "Progressive fading with complete removal possible over 12-18 months",
     maintenance: "Patience and consistency required",
-  
-    },
+  },
 
   "laser-mole-removal": {
     name: "Laser Mole Removal",
@@ -2336,14 +2450,16 @@ const SERVICE_DATA = {
       "Sun protection",
       "Gentle care",
     ],
-    
-    purpose: "Non-surgical laser treatment for mole removal with superior cosmetic results.",
-    procedure: "Precision laser ablation of mole tissue with minimal surrounding tissue damage.",
-    whatItDoes: "Laser energy vaporizes mole tissue while preserving adjacent healthy skin.",
+
+    purpose:
+      "Non-surgical laser treatment for mole removal with superior cosmetic results.",
+    procedure:
+      "Precision laser ablation of mole tissue with minimal surrounding tissue damage.",
+    whatItDoes:
+      "Laser energy vaporizes mole tissue while preserving adjacent healthy skin.",
     results: "Complete removal with healing in 1-2 weeks",
     maintenance: "Regular skin checks advised",
-  
-    },
+  },
 
   "wart-removal-laser": {
     name: "Wart Removal Laser",
@@ -2376,14 +2492,16 @@ const SERVICE_DATA = {
       "Keep area clean",
       "Follow care instructions",
     ],
-    
-    purpose: "Laser treatment for wart removal with minimal scarring and high success rates.",
-    procedure: "Focused laser energy destroys wart tissue and stimulates immune response.",
-    whatItDoes: "Thermal destruction of wart tissue combined with immune stimulation prevents recurrence.",
+
+    purpose:
+      "Laser treatment for wart removal with minimal scarring and high success rates.",
+    procedure:
+      "Focused laser energy destroys wart tissue and stimulates immune response.",
+    whatItDoes:
+      "Thermal destruction of wart tissue combined with immune stimulation prevents recurrence.",
     results: "Complete removal with healing in 1-2 weeks",
     maintenance: "Low recurrence with proper care",
-  
-    },
+  },
 
   // Body Contouring Treatments
   "weight-loss-treatments": {
@@ -2417,15 +2535,17 @@ const SERVICE_DATA = {
       "Healthy lifestyle commitment",
       "Regular monitoring",
     ],
-    
-    purpose: "Medical weight management combining hormonal balancing, metabolism optimization, and lifestyle guidance.",
-    procedure: "Comprehensive assessment followed by personalized treatment plan with medications, supplements, and lifestyle modifications.",
-    whatItDoes: "Addresses hormonal imbalances, metabolic issues, and behavioral factors contributing to weight gain.",
+
+    purpose:
+      "Medical weight management combining hormonal balancing, metabolism optimization, and lifestyle guidance.",
+    procedure:
+      "Comprehensive assessment followed by personalized treatment plan with medications, supplements, and lifestyle modifications.",
+    whatItDoes:
+      "Addresses hormonal imbalances, metabolic issues, and behavioral factors contributing to weight gain.",
     results:
       "Progressive weight loss with optimal body shaping over 3-6 months",
     maintenance: "Ongoing lifestyle maintenance",
-  
-    },
+  },
 
   "cellulite-treatment": {
     name: "Cellulite Treatment",
@@ -2458,15 +2578,17 @@ const SERVICE_DATA = {
       "Healthy lifestyle support",
       "Realistic expectations",
     ],
-    
-    purpose: "Advanced cellulite reduction combining multiple therapies for smoother skin texture.",
-    procedure: "Multi-modal treatment addressing fat herniation, fibrous bands, and skin quality improvement.",
-    whatItDoes: "Breaks down fibrous septae, reduces fat protrusion, and improves dermal thickness for cellulite reduction.",
+
+    purpose:
+      "Advanced cellulite reduction combining multiple therapies for smoother skin texture.",
+    procedure:
+      "Multi-modal treatment addressing fat herniation, fibrous bands, and skin quality improvement.",
+    whatItDoes:
+      "Breaks down fibrous septae, reduces fat protrusion, and improves dermal thickness for cellulite reduction.",
     results:
       "Visible improvement in 4-6 weeks with optimal results after full course",
     maintenance: "Regular maintenance sessions",
-  
-    },
+  },
 
   "cryolipolysis-treatment": {
     name: "Cryolipolysis Treatment",
@@ -2499,14 +2621,16 @@ const SERVICE_DATA = {
       "Results take time",
       "Healthy candidates only",
     ],
-    
-    purpose: "Non-surgical fat reduction using controlled cooling technology to eliminate stubborn fat deposits.",
-    procedure: "Cryolipolysis applicators deliver controlled cooling to target fat areas for natural elimination.",
-    whatItDoes: "Induces apoptosis in fat cells through controlled cooling, allowing natural elimination over weeks.",
+
+    purpose:
+      "Non-surgical fat reduction using controlled cooling technology to eliminate stubborn fat deposits.",
+    procedure:
+      "Cryolipolysis applicators deliver controlled cooling to target fat areas for natural elimination.",
+    whatItDoes:
+      "Induces apoptosis in fat cells through controlled cooling, allowing natural elimination over weeks.",
     results: "Visible reduction in 4-6 weeks with optimal results at 3 months",
     maintenance: "Healthy lifestyle maintenance",
-  
-    },
+  },
 
   "body-shaping-treatment": {
     name: "Body Shaping Treatment",
@@ -2539,15 +2663,17 @@ const SERVICE_DATA = {
       "Healthy lifestyle",
       "Professional supervision",
     ],
-    
-    purpose: "Non-invasive body contouring using advanced technologies for fat reduction and skin tightening.",
-    procedure: "Combination of fat reduction modalities with skin tightening treatments for comprehensive body shaping.",
-    whatItDoes: "Reduces fat volume while improving skin elasticity for enhanced body contours.",
+
+    purpose:
+      "Non-invasive body contouring using advanced technologies for fat reduction and skin tightening.",
+    procedure:
+      "Combination of fat reduction modalities with skin tightening treatments for comprehensive body shaping.",
+    whatItDoes:
+      "Reduces fat volume while improving skin elasticity for enhanced body contours.",
     results:
       "Progressive shaping over 8-12 weeks with optimal results after full course",
     maintenance: "Regular maintenance for sustained results",
-  
-    },
+  },
 
   "fat-reduction-treatment": {
     name: "Fat Reduction Treatment",
@@ -2580,15 +2706,17 @@ const SERVICE_DATA = {
       "Realistic expectations",
       "Lifestyle factors",
     ],
-    
-    purpose: "Targeted fat reduction treatments for specific body areas resistant to diet and exercise.",
-    procedure: "Precision treatments targeting localized fat deposits using various reduction technologies.",
-    whatItDoes: "Selectively reduces fat cells in targeted areas while preserving surrounding tissues.",
+
+    purpose:
+      "Targeted fat reduction treatments for specific body areas resistant to diet and exercise.",
+    procedure:
+      "Precision treatments targeting localized fat deposits using various reduction technologies.",
+    whatItDoes:
+      "Selectively reduces fat cells in targeted areas while preserving surrounding tissues.",
     results:
       "Progressive reduction over 6-8 weeks with optimal results at 3-4 months",
     maintenance: "Healthy maintenance lifestyle",
-  
-    },
+  },
 };
 
 const ServiceDetailPage = ({ onBookAppointment }) => {
@@ -2617,7 +2745,7 @@ const ServiceDetailPage = ({ onBookAppointment }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 mt-10">
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-br from-[#001b3d] to-[#002b5d]">
         <div className="container mx-auto px-6">
@@ -2627,36 +2755,12 @@ const ServiceDetailPage = ({ onBookAppointment }) => {
             variants={fadeUp}
             className="text-center text-white"
           >
-            <div className="flex items-center justify-center gap-4 mb-6">
-              <Link
-                to={service.categoryPath}
-                className="inline-flex items-center text-[#efae4c] hover:text-white transition-colors"
-              >
-                <ArrowLeftOutlined className="mr-2" />
-                Back to {service.category}
-              </Link>
-            </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               {service.name}
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed mb-6">
               {service.description}
             </p>
-            <div className="flex items-center justify-center gap-6 text-sm">
-              <div className="flex items-center gap-2">
-                <ClockCircleOutlined />
-                <span>{service.duration}</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <StarFilled className="text-yellow-500" />
-                <span>
-                  {service.rating} ({service.reviews} reviews)
-                </span>
-              </div>
-              <Tag color="#efae4c" className="text-white">
-                {service.sessions}
-              </Tag>
-            </div>
           </motion.div>
         </div>
       </section>
@@ -2685,7 +2789,9 @@ const ServiceDetailPage = ({ onBookAppointment }) => {
                     }
                   >
                     <motion.div variants={fadeUp}>
-                      <p className="text-gray-700 leading-relaxed">{service.purpose}</p>
+                      <p className="text-gray-700 leading-relaxed">
+                        {service.purpose}
+                      </p>
                     </motion.div>
                   </Card>
                 )}
@@ -2702,7 +2808,9 @@ const ServiceDetailPage = ({ onBookAppointment }) => {
                     }
                   >
                     <motion.div variants={fadeUp}>
-                      <p className="text-gray-700 leading-relaxed">{service.whatItDoes}</p>
+                      <p className="text-gray-700 leading-relaxed">
+                        {service.whatItDoes}
+                      </p>
                     </motion.div>
                   </Card>
                 )}
@@ -2719,7 +2827,9 @@ const ServiceDetailPage = ({ onBookAppointment }) => {
                     }
                   >
                     <motion.div variants={fadeUp}>
-                      <p className="text-gray-700 leading-relaxed">{service.procedure}</p>
+                      <p className="text-gray-700 leading-relaxed">
+                        {service.procedure}
+                      </p>
                     </motion.div>
                   </Card>
                 )}

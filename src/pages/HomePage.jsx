@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import HeroSection from "../components/homepage/HeroSection";
 import CategorySection from "../components/homepage/CategorySection";
 import TrustMetrics from "../components/homepage/TrustMetrics";
@@ -43,7 +42,6 @@ const HomePage = ({ onBookAppointment }) => {
           padding: 0;
         }
       `}</style>
-      <Navbar onBookAppointment={onBookAppointment} />
       <HeroSection onBookAppointment={onBookAppointment} />
       <CategorySection />
       <TrustMetrics />

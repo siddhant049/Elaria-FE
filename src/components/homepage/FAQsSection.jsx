@@ -1,6 +1,35 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+const staggerContainer = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.12,
+      delayChildren: 0.3,
+    },
+  },
+};
+
+const fadeUp = {
+  hidden: { opacity: 0, y: 40 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] },
+  },
+};
+
+const scaleIn = {
+  hidden: { scale: 0.95, opacity: 0 },
+  visible: {
+    scale: 1,
+    opacity: 1,
+    transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] },
+  },
+};
+
 const FAQsSection = () => {
   const faqs = [
     {
@@ -33,6 +62,22 @@ const FAQsSection = () => {
       answer:
         "Most treatments are suitable for adults 18 and older. Some procedures may have different age guidelines based on individual circumstances. We'll assess your eligibility during the consultation and recommend the most appropriate treatments.",
     },
+    {
+      question: "How do I know which treatment is right for me?",
+      answer:
+        "You don’t need to decide on your own. During your consultation, our experts will assess your concerns, skin or hair type, lifestyle, and goals, then recommend a customized treatment plan that suits you best.",
+    },
+    {
+      question:
+        "Do I need to stop my current skincare or medications before treatment?",
+      answer:
+        "In some cases, we may ask you to pause certain products or medications, such as retinoids or blood thinners, before a procedure. Our doctor will review your current routine and medical history and give you clear pre-treatment instructions.",
+    },
+    {
+      question: "How soon will I see results after my treatment?",
+      answer:
+        "Some treatments show visible improvement immediately or within a few days, while others work gradually over several weeks as your skin or hair regenerates. During your consultation, we’ll explain the expected timeline and how many sessions you may need.",
+    },
   ];
 
   return (
@@ -42,39 +87,17 @@ const FAQsSection = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          variants={{
-            hidden: { opacity: 0 },
-            visible: {
-              opacity: 1,
-              transition: {
-                staggerChildren: 0.1,
-              },
-            },
-          }}
+          variants={staggerContainer}
           className="text-center mb-16"
         >
           <motion.h2
-            variants={{
-              hidden: { opacity: 0, y: -20 },
-              visible: {
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.6 },
-              },
-            }}
+            variants={fadeUp}
             className="text-4xl font-light text-[#001b3d] mb-4 tracking-wide"
           >
             Frequently Asked Questions
           </motion.h2>
           <motion.p
-            variants={{
-              hidden: { opacity: 0, y: -10 },
-              visible: {
-                opacity: 1,
-                y: 0,
-                transition: { duration: 0.6, delay: 0.2 },
-              },
-            }}
+            variants={fadeUp}
             className="text-gray-600 text-lg max-w-2xl mx-auto"
           >
             Find answers to common questions about our treatments and services
@@ -82,28 +105,13 @@ const FAQsSection = () => {
         </motion.div>
 
         <motion.div
-          variants={{
-            hidden: { opacity: 0 },
-            visible: {
-              opacity: 1,
-              transition: {
-                staggerChildren: 0.1,
-              },
-            },
-          }}
+          variants={staggerContainer}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {faqs.map((faq, index) => (
             <motion.div
               key={index}
-              variants={{
-                hidden: { opacity: 0, y: 20 },
-                visible: {
-                  opacity: 1,
-                  y: 0,
-                  transition: { duration: 0.6 },
-                },
-              }}
+              variants={scaleIn}
               className="group h-64 [perspective:1000px]"
             >
               <div className="relative h-full w-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">

@@ -10,7 +10,6 @@ import {
   PhoneOutlined,
   QuestionCircleOutlined,
 } from "@ant-design/icons";
-import Navbar from "../components/Navbar";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -108,8 +107,6 @@ const AIAssessmentPage = ({ onBookAppointment }) => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar onBookAppointment={handleBookAppointment} />
-
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-br from-[#001b3d] to-[#002b5d]">
         <div className="container mx-auto px-6">

@@ -9,7 +9,6 @@ import {
   StarFilled,
   PhoneOutlined,
 } from "@ant-design/icons";
-import Navbar from "../../components/Navbar";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 40 },
@@ -155,7 +154,13 @@ const getServiceIdFromTreatment = (treatmentName) => {
     "Targeted Fat Reduction": "fat-reduction-treatment",
   };
 
-  return treatmentToServiceMap[treatmentName] || treatmentName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  return (
+    treatmentToServiceMap[treatmentName] ||
+    treatmentName
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)/g, "")
+  );
 };
 
 // Treatment data - same as in Services.jsx but expanded
@@ -784,8 +789,6 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      <Navbar onBookAppointment={handleBookAppointment} />
-
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         {/* Background with gradient and pattern */}
@@ -811,7 +814,7 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
             variants={fadeUp}
             className="text-center text-white max-w-5xl mx-auto"
           >
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.6 }}
@@ -824,9 +827,9 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
                 <ArrowLeftOutlined className="mr-2" />
                 Back to Home
               </Link>
-            </motion.div>
+            </motion.div> */}
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8 }}
@@ -838,7 +841,7 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
                   Premium Treatment
                 </span>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             <motion.h1
               initial={{ opacity: 0, y: 40 }}
@@ -858,7 +861,7 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
               {treatment.description}
             </motion.p>
 
-            <motion.div
+            {/* <motion.div
               initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.0, duration: 0.8 }}
@@ -876,7 +879,7 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
                   </span>
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </section>
@@ -1001,7 +1004,9 @@ const TreatmentDetailPage = ({ onBookAppointment }) => {
                         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
                           {treatment.subServices.map((service, index) => {
                             // Get the correct service ID from treatment name
-                            const serviceSlug = getServiceIdFromTreatment(service.name);
+                            const serviceSlug = getServiceIdFromTreatment(
+                              service.name
+                            );
 
                             return (
                               <motion.div
